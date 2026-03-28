@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pawan Mishra — Software Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: &quot;Share Tech Mono&quot;, monospace">
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-md border-bottom shadow-sm sticky-top bg-body"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold"
+          href="#"
+          style="font-family: &quot;Orbitron&quot;, sans-serif"
+          >Pawan.dev</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav gap-2 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ms-2">
+              <button
+                id="themeToggle"
+                class="btn btn-sm btn-outline-secondary"
+                onclick="toggleTheme()"
+                title="Toggle dark/light mode"
+              >
+                <i id="themeIcon" class="bi bi-moon-fill"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  Heading  -->
+    <section class="border-bottom py-5 bg-body">
+      <div class="container py-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-9">
+            <span
+              class="badge bg-success-subtle text-success mb-3 fs-6 fw-normal"
+              >Available for work</span
+            >
+            <h1
+              class="display-3 fw-bold lh-sm mb-3"
+              style="font-family: &quot;Orbitron&quot;, sans-serif"
+            >
+              Hi, I'm Pawan Mishra
+            </h1>
+            <p class="lead text-secondary mb-4">
+              I'm a Software Developer with 3 years of experience building fast,
+              accessible, and well-crafted web applications — from backend APIs
+              to polished UIs.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#projects" class="btn btn-dark btn-lg px-4"
+                >View Projects</a
+              >
+              <a href="#contact" class="btn btn-outline-secondary btn-lg px-4"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  ABOUT  -->
+    <section id="about" class="py-5 border-bottom bg-body-tertiary">
+      <div class="container py-4">
+        <h2
+          class="fw-bold mb-2"
+          style="font-family: &quot;Orbitron&quot;, sans-serif"
+        >
+          About Me
+        </h2>
+        <div class="border-bottom border-2 mb-4" style="width: 48px"></div>
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-6">
+            <p class="text-secondary fs-5 mb-3">
+              I love turning complex problems into simple, elegant solutions. My
+              focus is on writing clean, maintainable code and building products
+              that make a real difference.
+            </p>
+            <p class="text-secondary">
+              When I'm not coding, I enjoy reading about distributed systems,
+              contributing to open source, and brewing a great cup of coffee.
+            </p>
+            <div class="mt-4 d-flex gap-3">
+              <a
+                href="https://github.com/pawanx"
+                class="btn btn-outline-dark btn-sm"
+                ><i class="bi bi-github me-1"></i>GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/pawan-mishra-08b3b9133/"
+                class="btn btn-outline-primary btn-sm"
+                ><i class="bi bi-linkedin me-1"></i>LinkedIn</a
+              >
+              <a href="#" class="btn btn-outline-secondary btn-sm"
+                ><i class="bi bi-file-earmark-text me-1"></i>Resume</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row g-3 text-center">
+              <div class="col-4">
+                <div class="bg-body border rounded-3 p-3 shadow-sm">
+                  <div class="display-6 fw-bold">3+</div>
+                  <div class="text-secondary small">Years Exp.</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="bg-body border rounded-3 p-3 shadow-sm">
+                  <div class="display-6 fw-bold">5+</div>
+                  <div class="text-secondary small">Projects</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="bg-body border rounded-3 p-3 shadow-sm">
+                  <div class="display-6 fw-bold">5</div>
+                  <div class="text-secondary small">Clients</div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-body border rounded-3 p-4 mt-3 shadow-sm">
+              <p class="fw-semibold mb-1">📍 Location</p>
+              <p class="text-secondary mb-3">
+                Noida, India — Open to remote/relocation
+              </p>
+              <p class="fw-semibold mb-1">🎓 Education</p>
+              <p class="text-secondary mb-0">B.Tech Computer Science, MIT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  PROJECTS  -->
+    <section id="projects" class="py-5 bg-body border-bottom">
+      <div class="container py-4">
+        <h2
+          class="fw-bold mb-2"
+          style="font-family: &quot;Orbitron&quot;, sans-serif"
+        >
+          Projects
+        </h2>
+        <div class="border-bottom border-2 mb-4" style="width: 48px"></div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border shadow-sm bg-body-secondary">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="badge bg-primary-subtle text-primary"
+                    >React · Node.js</span
+                  >
+                </div>
+                <h5
+                  class="card-title fw-bold"
+                  style="font-family: &quot;Orbitron&quot;, sans-serif"
+                >
+                  Quickmart
+                </h5>
+                <p class="card-text text-secondary flex-grow-1">
+                  A ecommerce website for buying local groceries and supplies.
+                </p>
+                <div class="d-flex gap-2 mt-3">
+                  <a
+                    href="https://quickmart-frontend-sand.vercel.app/"
+                    class="btn btn-sm btn-dark"
+                    ><i class="bi bi-box-arrow-up-right me-1"></i>Live</a
+                  >
+                  <a
+                    href="https://github.com/pawanx/Quickmart-Frontend"
+                    class="btn btn-sm btn-outline-secondary"
+                    ><i class="bi bi-github me-1"></i>Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border shadow-sm bg-body-secondary">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="badge bg-success-subtle text-success"
+                    >Next.js · PostgreSQL</span
+                  >
+                </div>
+                <h5
+                  class="card-title fw-bold"
+                  style="font-family: &quot;Orbitron&quot;, sans-serif"
+                >
+                  Anvaya CMS
+                </h5>
+                <p class="card-text text-secondary flex-grow-1">
+                  A headless content management system designed for editorial
+                  teams — fast, flexible, and API-first.
+                </p>
+                <div class="d-flex gap-2 mt-3">
+                  <a
+                    href="https://anvaya-frontend-phi.vercel.app/"
+                    class="btn btn-sm btn-dark"
+                    ><i class="bi bi-box-arrow-up-right me-1"></i>Live</a
+                  >
+                  <a
+                    href="https://github.com/pawanx/Anvaya-Frontend"
+                    class="btn btn-sm btn-outline-secondary"
+                    ><i class="bi bi-github me-1"></i>Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border shadow-sm bg-body-secondary">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="badge bg-warning-subtle text-warning-emphasis"
+                    >TypeScript · OAuth</span
+                  >
+                </div>
+                <h5
+                  class="card-title fw-bold"
+                  style="font-family: &quot;Orbitron&quot;, sans-serif"
+                >
+                  Lumen Auth
+                </h5>
+                <p class="card-text text-secondary flex-grow-1">
+                  An open-source authentication library supporting OAuth 2.0,
+                  MFA, and passkey login for Node apps.
+                </p>
+                <div class="d-flex gap-2 mt-3">
+                  <a href="#" class="btn btn-sm btn-dark"
+                    ><i class="bi bi-box-arrow-up-right me-1"></i>Live</a
+                  >
+                  <a href="#" class="btn btn-sm btn-outline-secondary"
+                    ><i class="bi bi-github me-1"></i>Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border shadow-sm bg-body-secondary">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="badge bg-info-subtle text-info"
+                    >React · SQLite · PWA</span
+                  >
+                </div>
+                <h5
+                  class="card-title fw-bold"
+                  style="font-family: &quot;Orbitron&quot;, sans-serif"
+                >
+                  Shelf
+                </h5>
+                <p class="card-text text-secondary flex-grow-1">
+                  A personal knowledge base app with markdown support, full-text
+                  search, and offline-first sync.
+                </p>
+                <div class="d-flex gap-2 mt-3">
+                  <a href="#" class="btn btn-sm btn-dark"
+                    ><i class="bi bi-box-arrow-up-right me-1"></i>Live</a
+                  >
+                  <a href="#" class="btn btn-sm btn-outline-secondary"
+                    ><i class="bi bi-github me-1"></i>Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border shadow-sm bg-body-secondary">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="badge bg-danger-subtle text-danger"
+                    >Go · GraphQL · Redis</span
+                  >
+                </div>
+                <h5
+                  class="card-title fw-bold"
+                  style="font-family: &quot;Orbitron&quot;, sans-serif"
+                >
+                  Velo API
+                </h5>
+                <p class="card-text text-secondary flex-grow-1">
+                  A high-throughput REST and GraphQL gateway for ride-sharing
+                  data with rate limiting and caching layers.
+                </p>
+                <div class="d-flex gap-2 mt-3">
+                  <a href="#" class="btn btn-sm btn-dark"
+                    ><i class="bi bi-box-arrow-up-right me-1"></i>Live</a
+                  >
+                  <a href="#" class="btn btn-sm btn-outline-secondary"
+                    ><i class="bi bi-github me-1"></i>Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border shadow-sm bg-body-secondary">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="badge bg-secondary-subtle text-secondary"
+                    >React · Storybook</span
+                  >
+                </div>
+                <h5
+                  class="card-title fw-bold"
+                  style="font-family: &quot;Orbitron&quot;, sans-serif"
+                >
+                  Forma UI
+                </h5>
+                <p class="card-text text-secondary flex-grow-1">
+                  A minimal design system and component library for React, built
+                  for consistency and accessibility.
+                </p>
+                <div class="d-flex gap-2 mt-3">
+                  <a href="#" class="btn btn-sm btn-dark"
+                    ><i class="bi bi-box-arrow-up-right me-1"></i>Live</a
+                  >
+                  <a href="#" class="btn btn-sm btn-outline-secondary"
+                    ><i class="bi bi-github me-1"></i>Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="py-5 border-bottom bg-body-tertiary">
+      <div class="container py-4">
+        <h2
+          class="fw-bold mb-2"
+          style="font-family: &quot;Orbitron&quot;, sans-serif"
+        >
+          Skills
+        </h2>
+        <div class="border-bottom border-2 mb-4" style="width: 48px"></div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="bg-body border rounded-3 p-4 shadow-sm h-100">
+              <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                <i class="bi bi-code-slash me-2"></i>Languages
+              </h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span
+                  class="badge rounded-pill bg-dark text-white fs-6 fw-normal px-3 py-2"
+                  >JavaScript</span
+                >
+
+                <span
+                  class="badge rounded-pill bg-dark text-white fs-6 fw-normal px-3 py-2"
+                  >Python</span
+                >
+                <span
+                  class="badge rounded-pill bg-dark text-white fs-6 fw-normal px-3 py-2"
+                  >SQL</span
+                >
+                <span
+                  class="badge rounded-pill bg-dark text-white fs-6 fw-normal px-3 py-2"
+                  >HTML/CSS</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="bg-body border rounded-3 p-4 shadow-sm h-100">
+              <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                <i class="bi bi-layers me-2"></i>Frameworks
+              </h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span
+                  class="badge rounded-pill bg-primary fs-6 fw-normal px-3 py-2"
+                  >React</span
+                >
+
+                <span
+                  class="badge rounded-pill bg-primary fs-6 fw-normal px-3 py-2"
+                  >Node.js</span
+                >
+                <span
+                  class="badge rounded-pill bg-primary fs-6 fw-normal px-3 py-2"
+                  >Express</span
+                >
+
+                <span
+                  class="badge rounded-pill bg-primary fs-6 fw-normal px-3 py-2"
+                  >REST APIs</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="bg-body border rounded-3 p-4 shadow-sm h-100">
+              <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                <i class="bi bi-tools me-2"></i>Tools & Platforms
+              </h6>
+              <div class="d-flex flex-wrap gap-2">
+                <span
+                  class="badge rounded-pill bg-success fs-6 fw-normal px-3 py-2"
+                  >Git</span
+                >
+
+                <span
+                  class="badge rounded-pill bg-success fs-6 fw-normal px-3 py-2"
+                  >MySQL</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="py-5 bg-body">
+      <div class="container py-4">
+        <h2
+          class="fw-bold mb-2"
+          style="font-family: &quot;Orbitron&quot;, sans-serif"
+        >
+          Contact
+        </h2>
+        <div class="border-bottom border-2 mb-4" style="width: 48px"></div>
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <p class="text-secondary fs-5 mb-4">
+              Open to full-time roles, freelance projects, and interesting
+              collaborations. I reply within 24 hours.
+            </p>
+            <ul class="list-unstyled d-flex flex-column gap-3">
+              <li>
+                <a
+                  href="mailto:alex@example.com"
+                  class="text-decoration-none d-flex align-items-center gap-2"
+                >
+                  <span class="badge bg-body-secondary border fs-5 p-2"
+                    ><i class="bi bi-envelope-fill"></i
+                  ></span>
+                  pawanmishra196@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center gap-2"
+                >
+                  <span class="badge bg-body-secondary border fs-5 p-2"
+                    ><i class="bi bi-github"></i
+                  ></span>
+                  github.com/pawanx
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none d-flex align-items-center gap-2"
+                >
+                  <span class="badge bg-body-secondary border fs-5 p-2"
+                    ><i class="bi bi-linkedin"></i
+                  ></span>
+                  linkedin.com/in/pawan-mishra-08b3b9133/
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-7">
+            <form onsubmit="handleSubmit(event)">
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Name</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Email</label>
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Message</label>
+                <textarea
+                  class="form-control form-control-lg"
+                  rows="5"
+                  placeholder="Tell me about your project..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark btn-lg px-5 w-100">
+                <i class="bi bi-send me-2"></i>Send Message
+              </button>
+              <div
+                id="form-msg"
+                class="alert alert-success mt-3 d-none"
+                role="alert"
+              >
+                <i class="bi bi-check-circle me-2"></i> Message sent! I'll be in
+                touch soon.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  FOOTER  -->
+    <footer class="bg-dark text-white py-4">
+      <div
+        class="container d-flex flex-wrap justify-content-between align-items-center gap-2"
+      >
+        <span
+          class="fw-bold"
+          style="font-family: &quot;Orbitron&quot;, sans-serif"
+          >Pawan Mishra</span
+        >
+        <span class="text-secondary small"
+          >© 2026 · Built with Bootstrap 5</span
+        >
+        <div class="d-flex gap-3">
+          <a href="#" class="text-white fs-5"><i class="bi bi-github"></i></a>
+          <a href="#" class="text-white fs-5"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-white fs-5"
+            ><i class="bi bi-twitter-x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function toggleTheme() {
+        const html = document.documentElement;
+        const icon = document.getElementById("themeIcon");
+        const isDark = html.getAttribute("data-bs-theme") === "dark";
+        html.setAttribute("data-bs-theme", isDark ? "light" : "dark");
+        icon.className = isDark ? "bi bi-moon-fill" : "bi bi-sun-fill";
+      }
+
+      function handleSubmit(e) {
+        e.preventDefault();
+        const msg = document.getElementById("form-msg");
+        msg.classList.remove("d-none");
+        e.target.reset();
+        setTimeout(() => msg.classList.add("d-none"), 5000);
+      }
+    </script>
+  </body>
+</html>
