@@ -1,0 +1,9 @@
+:root{
+ --accent:#00d9ff;
+}
+.card {
+    transition: all .35s ease;
+}
+.card:hover{
+    transform: translateY(-12px);
+}
