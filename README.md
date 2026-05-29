@@ -139,13 +139,9 @@ Or run with VS Code Live Server.
 
 ## Screenshots
 
-Add screenshots here:
-
-```markdown
 ![Homepage](./assets/homepage.png)
 ![Projects Section](./assets/projects.png)
 ![Dark Mode](./assets/darkmode.png)
-```
 
 ---
 
